@@ -1,0 +1,37 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    height: 6000px;
+    background: #000000;
+}
+.one{
+    position: fixed;
+    left: 30%;
+    top: 16%;
+    height: 400px;
+    z-index: 2;
+}
+.two{
+    position: fixed;
+    left: 32.5%;
+    top: 20%;
+    height: 350px;
+    z-index: 3;
+}
+.three{
+    position: fixed;
+    left: 35%;
+    top: 25%;
+    height: 300px;
+    z-index: 4;
+}
+.blackbord{
+    background: #000000;
+    position: fixed;
+    top: 100%;
+    z-index: 5;
+    height: 2000px;
+}
